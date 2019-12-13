@@ -14,7 +14,7 @@ steps:
   displayName: Login to ACR
   inputs:
     command: login
-    containerRegistry: getservicesinformation
+    containerRegistry: azuregetserviceinformationregistory
 - task: Maven@3
   inputs:
     mavenPomFile: 'GetServiceInfoAPI/pom.xml'
